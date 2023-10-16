@@ -1,6 +1,8 @@
 import flask
 from flask import render_template
 import pickle
+import sklearn
+from sklearn.ensemble import GradientBoostingRegressor
 
 
 app = flask.Flask(__name__, template_folder= 'templates')
