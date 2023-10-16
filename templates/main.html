@@ -20,22 +20,23 @@ form {
 
 <form action="{{url_for('main')}}" method = "POST">
     <fieldset>
-        <legend>Введите значение IW </legend>
+        <legend>Введите значение величины сварочного тока </legend>
         <input name="IW" type="number"
         required>
         <br>
         <br>
-        <legend>Введите значение IF </legend>
+        <legend>Введите значение тока фокусировки электронного пучка  </legend>
         <input name="IF" type="number"
         required>
         <br>
         <br>
-        <legend>Введите значение VW </legend>
+        <legend>Введите значение скорости сварки </legend>
         <input name="VW" type="number"
         required>
         <br>
         <br>
-        <legend>Введите значение FP </legend>
+        <legend>Введите значение расстояния от поверхности образцов до электронно-оптической
+системы </legend>
         <input name="FP" type="number"
         required>
         <br>
@@ -54,3 +55,4 @@ form {
     {% endif %}
     </div>
 
+</div>
